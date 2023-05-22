@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repair-png"
+version = "0.1.0"
+description = ""
+authors = ["order&chaos <sean@orderandchaoscreative.com>"]
+readme = "README.md"
+packages = [{include = "repair_png"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
